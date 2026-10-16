@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     {
+          "type": "java",
+          "name": "ImportCircle",
+          "request": "launch",
+          "mainClass": "ImportCircle",
+          "projectName": "Chapter08_Packages_&_Classpaths_8df3f063"
+     },
+     {
+          "type": "java",
+          "name": "CircleUsing",
+          "request": "launch",
+          "mainClass": "CircleUsing",
+          "projectName": "Chapter08_Packages_&_Classpaths_8df3f063"
+     },
+     {
+          "type": "java",
+          "name": "Run WhatYourName",
+          "request": "launch",
+          "mainClass": "WhatYourName",
+          "classPaths": [
+               "$Auto",
+               "${workspaceFolder}/bin/MyClass"
+          ]
+     }
+]
+}
