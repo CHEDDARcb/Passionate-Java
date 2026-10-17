@@ -1,0 +1,106 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     {
+          "type": "java",
+          "name": "Accumulator",
+          "request": "launch",
+          "mainClass": "Accumulator",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "DateOfExecution",
+          "request": "launch",
+          "mainClass": "DateOfExecution",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "UseCalculator",
+          "request": "launch",
+          "mainClass": "UseCalculator",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassMethod",
+          "request": "launch",
+          "mainClass": "ClassMethod",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "CircleConstPI",
+          "request": "launch",
+          "mainClass": "CircleConstPI",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "OnlyClassNoInstance",
+          "request": "launch",
+          "mainClass": "OnlyClassNoInstance",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassVarAccess",
+          "request": "launch",
+          "mainClass": "ClassVarAccess",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassVar",
+          "request": "launch",
+          "mainClass": "ClassVar",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "DefSebrClass",
+          "request": "launch",
+          "mainClass": "DefSebrClass",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "CompEncapsulation",
+          "request": "launch",
+          "mainClass": "CompEncapsulation",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "OneClassEncapsulation",
+          "request": "launch",
+          "mainClass": "OneClassEncapsulation",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "InfoHideCircle",
+          "request": "launch",
+          "mainClass": "InfoHideCircle",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "UnsafeCircle",
+          "request": "launch",
+          "mainClass": "UnsafeCircle",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "Run WhatYourName",
+          "request": "launch",
+          "mainClass": "WhatYourName",
+          "classPaths": [
+               "$Auto",
+               "${workspaceFolder}/bin/MyClass"
+          ]
+     }
+]
+}
