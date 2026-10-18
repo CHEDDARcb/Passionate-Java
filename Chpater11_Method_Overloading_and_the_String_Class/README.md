@@ -9,6 +9,24 @@ Java에서 `==` 연산자는 변수의 타입에 따라 비교 대상이 달라�
 
 참조값은 객체를 참조하기 위해 사용하는 값이다. 흔히 메모리 주소에 비유하지만, Java의 참조값을 실제 메모리 주소와 동일하다고 단정하는 것은 정확하지 않다.
 
+> [!NOTE]
+> **참조값(Reference Value)이란?**
+>
+> 참조변수에는 객체 자체가 아니라 객체를 참조하기 위한 값이 저장된다.
+>
+> 흔히 참조값을 메모리 주소라고 설명하지만, Java에서는 참조값이 실제 메모리 주소와 반드시 동일하다고 보장하지 않는다. JVM은 객체의 위치를 관리하며, 개발자는 참조값을 통해 객체에 접근한다.
+>
+> 따라서 참조형 변수끼리 `==`를 사용하면 두 변수가 **동일한 객체를 참조하는지** 비교한다.
+>
+> ```java
+> String str1 = new String("Hello");
+> String str2 = new String("Hello");
+>
+> System.out.println(str1 == str2); // false
+> ```
+>
+> 두 변수는 내용이 같은 문자열을 가지고 있지만, 서로 다른 객체를 참조하므로 `false`가 반환된다.
+
 ## 2. 기본형과 참조형의 차이
 
 ### 2-1. 기본형: 값 비교
@@ -69,6 +87,34 @@ flowchart TD
     style E fill:#17351f,color:#ffffff,stroke:#4caf50
     style F fill:#17351f,color:#7ee787,stroke:#4caf50
 ```
+
+> [!NOTE]
+> **String Pool이란?**
+>
+> String Pool은 Java가 문자열 리터럴을 재사용하기 위해 관리하는 영역이다.
+>
+> 문자열 리터럴을 사용하면 Java는 String Pool에서 동일한 문자열을 찾는다. 이미 존재하면 해당 객체를 재사용하고, 존재하지 않으면 새로운 문자열 객체를 풀에 등록한다.
+>
+> ```java
+> String str1 = "Hello";
+> String str2 = "Hello";
+>
+> System.out.println(str1 == str2); // true
+> ```
+>
+> `str1`과 `str2`는 String Pool에 있는 동일한 `String` 객체를 참조하므로 `true`가 반환된다.
+>
+> 반면 `new String("Hello")`는 별도의 `String` 객체를 생성하므로, 동일한 문자열이라도 참조값이 다를 수 있다.
+>
+> ```java
+> String str3 = new String("Hello");
+> String str4 = new String("Hello");
+>
+> System.out.println(str3 == str4);      // false
+> System.out.println(str3.equals(str4)); // true
+> ```
+>
+> **핵심:** `==`는 동일한 객체인지 비교하고, `equals()`는 `String`의 경우 문자열 내용이 같은지 비교한다.
 
 ### 3-2. `new String()`을 사용한 객체 생성
 
