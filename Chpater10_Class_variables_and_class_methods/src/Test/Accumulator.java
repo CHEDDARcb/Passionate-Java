@@ -1,7 +1,6 @@
 public class Accumulator {
      static int num = 0;
 
-
      static void add(int n){
           num += n;
      }
