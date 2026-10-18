@@ -26,10 +26,10 @@ String st2 = "str";
 
 ```mermaid
 flowchart TD
-    A["String st1 = \"str\""]
-    B["String st2 = \"str\""]
+    A["String st1 = str"]
+    B["String st2 = str"]
     C["String Pool"]
-    D["String 객체: \"str\""]
+    D["String 객체: str"]
 
     A --> C
     B --> C
@@ -55,11 +55,11 @@ String st2 = new String("str");
 
 ```mermaid
 flowchart TD
-    A["String st1 = \"str\""]
-    B["String st2 = new String(\"str\")"]
+    A["String st1 = str"]
+    B["String st2 = new String(str)"]
     C["String Pool"]
-    D["String 객체: \"str\""]
-    E["별도의 String 객체: \"str\""]
+    D["String 객체: str"]
+    E["별도의 String 객체: str"]
 
     A --> D
     D --- C
@@ -89,11 +89,11 @@ String st3 = new String("str");
 ```mermaid
 flowchart TD
     subgraph Pool["String Pool"]
-        A["String 객체: \"str\""]
+        A["String 객체: str"]
     end
 
     subgraph Heap["별도로 생성된 객체"]
-        B["String 객체: \"str\""]
+        B["String 객체: str"]
     end
 
     S1["st1"] --> A
@@ -162,10 +162,10 @@ str = str + " world";
 
 ```mermaid
 flowchart TD
-    A["str → \"hello\""]
+    A["str → hello"]
     B["문자열 연결"]
-    C["새로운 String 객체: \"hello world\""]
-    D["str → \"hello world\""]
+    C["새로운 String 객체: hello world"]
+    D["str → hello world"]
 
     A --> B
     B --> C
