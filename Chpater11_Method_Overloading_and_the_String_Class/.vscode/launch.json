@@ -3,6 +3,48 @@
     "configurations": [
      {
           "type": "java",
+          "name": "UsingStringBuilderClass",
+          "request": "launch",
+          "mainClass": "UsingStringBuilderClass",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "BuildString",
+          "request": "launch",
+          "mainClass": "BuildString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "UsingAStringClass",
+          "request": "launch",
+          "mainClass": "UsingAStringClass",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "CompString",
+          "request": "launch",
+          "mainClass": "CompString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "SubString",
+          "request": "launch",
+          "mainClass": "SubString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "StringConcat",
+          "request": "launch",
+          "mainClass": "StringConcat",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
           "name": "ImmutableString",
           "request": "launch",
           "mainClass": "ImmutableString",

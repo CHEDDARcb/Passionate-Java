@@ -15,11 +15,5 @@ public class ImmutableString {
                System.out.println("str3 and str4 are same instance.");
           else
                System.out.println("str3 and str4 are different instance");
-
-          if(str1 == str4)
-               System.out.println("str1 and str4 are same instance.");
-          else
-               System.out.println("str1 and str4 are different instance");
      }
-     
 }
