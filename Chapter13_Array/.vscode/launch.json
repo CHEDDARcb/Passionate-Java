@@ -1,0 +1,288 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     {
+          "type": "java",
+          "name": "UsingTwoDimenArray2",
+          "request": "launch",
+          "mainClass": "UsingTwoDimenArray2",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "UsingTwoDimenArray1",
+          "request": "launch",
+          "mainClass": "UsingTwoDimenArray1",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "TwoDimenArray",
+          "request": "launch",
+          "mainClass": "TwoDimenArray",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "ArrayAndMethod",
+          "request": "launch",
+          "mainClass": "ArrayAndMethod",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "EnhancedForInst",
+          "request": "launch",
+          "mainClass": "EnhancedForInst",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "EnhancedFor",
+          "request": "launch",
+          "mainClass": "EnhancedFor",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "ArrayUtils",
+          "request": "launch",
+          "mainClass": "ArrayUtils",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "StringArray",
+          "request": "launch",
+          "mainClass": "StringArray",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "BoxArray",
+          "request": "launch",
+          "mainClass": "BoxArray",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "ArrayIsInstance2",
+          "request": "launch",
+          "mainClass": "ArrayIsInstance2",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "ArrayIsInstance",
+          "request": "launch",
+          "mainClass": "ArrayIsInstance",
+          "projectName": "Chapter13_Array_37d80cf5"
+     },
+     {
+          "type": "java",
+          "name": "ReadString",
+          "request": "launch",
+          "mainClass": "ReadString",
+          "projectName": "Chpater12_Console_Input_and_Output_e9eae52d"
+     },
+     {
+          "type": "java",
+          "name": "ScanningKeyboard",
+          "request": "launch",
+          "mainClass": "ScanningKeyboard",
+          "projectName": "Chpater12_Console_Input_and_Output_e9eae52d"
+     },
+     {
+          "type": "java",
+          "name": "ScanningString",
+          "request": "launch",
+          "mainClass": "ScanningString",
+          "projectName": "Chpater12_Console_Input_and_Output_e9eae52d"
+     },
+     {
+          "type": "java",
+          "name": "FormatString",
+          "request": "launch",
+          "mainClass": "FormatString",
+          "projectName": "Chpater12_Console_Input_and_Output_e9eae52d"
+     },
+     {
+          "type": "java",
+          "name": "AutoCallToString",
+          "request": "launch",
+          "mainClass": "AutoCallToString",
+          "projectName": "Chpater12_Console_Input_and_Output_e9eae52d"
+     },
+     {
+          "type": "java",
+          "name": "UsingStringBuilderClass",
+          "request": "launch",
+          "mainClass": "UsingStringBuilderClass",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "BuildString",
+          "request": "launch",
+          "mainClass": "BuildString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "UsingAStringClass",
+          "request": "launch",
+          "mainClass": "UsingAStringClass",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "CompString",
+          "request": "launch",
+          "mainClass": "CompString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "SubString",
+          "request": "launch",
+          "mainClass": "SubString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "StringConcat",
+          "request": "launch",
+          "mainClass": "StringConcat",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "ImmutableString",
+          "request": "launch",
+          "mainClass": "ImmutableString",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "StringInst",
+          "request": "launch",
+          "mainClass": "StringInst",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "ThisInst",
+          "request": "launch",
+          "mainClass": "ThisInst",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "ConOverloading",
+          "request": "launch",
+          "mainClass": "ConOverloading",
+          "projectName": "Chpater11_Method_Overloading_and_the_String_Class_9b4e4f0d"
+     },
+     {
+          "type": "java",
+          "name": "Accumulator",
+          "request": "launch",
+          "mainClass": "Accumulator",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "DateOfExecution",
+          "request": "launch",
+          "mainClass": "DateOfExecution",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "UseCalculator",
+          "request": "launch",
+          "mainClass": "UseCalculator",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassMethod",
+          "request": "launch",
+          "mainClass": "ClassMethod",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "CircleConstPI",
+          "request": "launch",
+          "mainClass": "CircleConstPI",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "OnlyClassNoInstance",
+          "request": "launch",
+          "mainClass": "OnlyClassNoInstance",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassVarAccess",
+          "request": "launch",
+          "mainClass": "ClassVarAccess",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "ClassVar",
+          "request": "launch",
+          "mainClass": "ClassVar",
+          "projectName": "Chpater10_Class_variables_and_class_methods_fc8305cb"
+     },
+     {
+          "type": "java",
+          "name": "DefSebrClass",
+          "request": "launch",
+          "mainClass": "DefSebrClass",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "CompEncapsulation",
+          "request": "launch",
+          "mainClass": "CompEncapsulation",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "OneClassEncapsulation",
+          "request": "launch",
+          "mainClass": "OneClassEncapsulation",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "InfoHideCircle",
+          "request": "launch",
+          "mainClass": "InfoHideCircle",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "UnsafeCircle",
+          "request": "launch",
+          "mainClass": "UnsafeCircle",
+          "projectName": "Chpater09_Information_hiding_and_Encapsulation_e419567e"
+     },
+     {
+          "type": "java",
+          "name": "Run WhatYourName",
+          "request": "launch",
+          "mainClass": "WhatYourName",
+          "classPaths": [
+               "$Auto",
+               "${workspaceFolder}/bin/MyClass"
+          ]
+     }
+]
+}
